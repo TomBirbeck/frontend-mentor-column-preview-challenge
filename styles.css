@@ -96,7 +96,16 @@ main {
     height: fit-content;
     padding: 1rem 2rem;
     border-radius: 2rem;
-    border: none;
+    border: solid 2px var(--transparent-white);
+    background-color: white;
+}
+
+.buttons:hover {
+    background-color: transparent;
+}
+
+.buttons:hover a{
+    color: var(--transparent-white);
 }
 
 .learn-more-sedan {
@@ -130,6 +139,10 @@ main {
         max-width: 65%;
     }
 
+    .sections {
+        row-gap: 0.5rem;
+    }
+
     .sedans-section {
         border-top-right-radius: 0;
         border-bottom-left-radius: inherit;
@@ -139,6 +152,10 @@ main {
         border-top-right-radius: inherit;
         border-bottom-right-radius: inherit;
         border-bottom-left-radius: 0;
+    }
+
+    .buttons {
+        margin-top: 4rem;
     }
 
 }
