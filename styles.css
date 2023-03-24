@@ -107,17 +107,14 @@ main {
 
 .learn-more-sedan {
     color: var(--bright-orange);
-    text-decoration: none;
 }
 
 .learn-more-suv {
     color: var(--dark-cyan);
-    text-decoration: none;
 }
 
 .learn-more-luxury {
     color: var(--very-dark-cyan);
-    text-decoration: none;
 }
 
 .attribution { 
