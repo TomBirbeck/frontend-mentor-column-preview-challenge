@@ -102,9 +102,6 @@ main {
 
 .buttons:hover {
     background-color: transparent;
-}
-
-.buttons:hover a{
     color: var(--transparent-white);
 }
 
