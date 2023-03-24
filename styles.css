@@ -93,6 +93,7 @@ main {
 
 .buttons {
     width: fit-content;
+    height: fit-content;
     padding: 1rem 2rem;
     border-radius: 2rem;
     border: none;
@@ -120,4 +121,24 @@ main {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 800px) {
+    .display-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 65%;
+    }
+
+    .sedans-section {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: inherit;
+    }
+
+    .luxury-section {
+        border-top-right-radius: inherit;
+        border-bottom-right-radius: inherit;
+        border-bottom-left-radius: 0;
+    }
+
 }
